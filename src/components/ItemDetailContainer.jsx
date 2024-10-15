@@ -19,7 +19,7 @@ const ItemDetailContainer = () => {
           <h2>{product.name}</h2>
           <p>{product.description}</p>
           <p>Precio: ${product.price}</p>
-          {/* Aca agregarás la funcionalidad para añadir al carrito */}
+
         </div>
       ) : (
         <p>Cargando...</p>
